@@ -10,45 +10,6 @@
 
 <br>
 
-<h1 align="center"><samp>Timeline</samp></h1>
-
-<h3>Markers</h3>
-
-:grapes: Emberry <br>
-:seedling: Rhizome
-
-<br>
-
-<h3>Direct Messaging</h3>
-
-<h4>Phase A</h4>
-
-- [x] :grapes: :seedling: TLS control channel for rendezvous server
-- [x] :grapes: :seedling: Try open room at "Pubkey1 + Pubkey2" (both parties have to do that and know the room ID because its unique)
-- [x] :grapes: Messages types (message, set_name, etc)
-- [x] :grapes: Simultaneous rooms (multiple rooms open at once) (https://tauri.studio/v1/guides/features/command/#async-commands)
-- [x] :grapes: Unencrypted ephemeral messages
-- [ ] :grapes: Exchange usernames with comminication partner <br>
-
-<h4>Phase B</h4>
-
-- [ ] :seedling: Interactive room requests
-  - [ ] :seedling: Relay room open request to peer over control channel
-  - [ ] :grapes: Auto accept room open request if peer is in address book
-- [ ] :grapes: Message received and order ensurance (TCP-like promises)
-- [ ] :grapes: Unencrypted persistent messages <br>
-- [ ] :grapes: Public key storage (address book) (https://github.com/tauri-apps/tauri-plugin-stronghold)
-
-<h4>Phase C</h4>
-
-- [ ] :seedling: Live user info on server
-  - [ ] :seedling: Allow user to set a Username and status (username from client cannot contain '#')
-  - [ ] :seedling: status auto change to offline when disconnected from TLS control port
-  - [ ] :grapes: :seedling: Query user info by (username, pubkey) -> (pubkey, status) <br>
-
-<h4>Phase D</h4>
-
-- [ ] :grapes: Encrypted messages (OTP or single AES Key)
-- [ ] :grapes: Encrypted authenticated messages (signature) (signature on username)
+<h3 align="center"><samp><a href="https://github.com/orgs/emberry-org/projects/2/views/1">Timeline</a></samp></h3>
 
 <br>
